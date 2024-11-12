@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Personal Information";
+}
+
+<h2>Personal Information</h2>
+@if (ViewBag.Name != null)
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <td>@ViewBag.Name</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>@ViewBag.Age</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@ViewBag.Email</td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td>@ViewBag.Phone</td>
+        </tr>
+    </table>
+}
+else
+{
+    <p>No personal information available.</p>
+}
