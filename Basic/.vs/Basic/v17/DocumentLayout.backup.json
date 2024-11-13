@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\views\\portfolio\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\views\\portfolio\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\views\\portfolio\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\views\\portfolio\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\views\\portfolio\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\views\\portfolio\\information.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\views\\portfolio\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\views\\portfolio\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\views\\portfolio\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|c:\\users\\rohan\\desktop\\asp.net-mvc\\basic\\basic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\basic\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B51356D-2CFE-42B6-A22D-0BE9D3CF410A}|Basic\\Basic.csproj|solutionrelative:basic\\models\\degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Basic\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Basic\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T18:44:28.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -65,14 +78,14 @@
               "RelativeDocumentMoniker": "Basic\\Views\\Portfolio\\Contact.cshtml",
               "ToolTip": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Views\\Portfolio\\Contact.cshtml",
               "RelativeToolTip": "Basic\\Views\\Portfolio\\Contact.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T20:15:11.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Information.cshtml",
               "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Views\\Portfolio\\Information.cshtml",
               "RelativeDocumentMoniker": "Basic\\Views\\Portfolio\\Information.cshtml",
@@ -85,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Basic\\Models\\Contact.cs",
@@ -93,25 +106,24 @@
               "RelativeToolTip": "Basic\\Models\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T20:09:42.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T20:09:42.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Education.cshtml",
               "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Views\\Portfolio\\Education.cshtml",
               "RelativeDocumentMoniker": "Basic\\Views\\Portfolio\\Education.cshtml",
               "ToolTip": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Views\\Portfolio\\Education.cshtml",
               "RelativeToolTip": "Basic\\Views\\Portfolio\\Education.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T19:49:22.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Degree.cs",
               "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Models\\Degree.cs",
               "RelativeDocumentMoniker": "Basic\\Models\\Degree.cs",
@@ -119,21 +131,7 @@
               "RelativeToolTip": "Basic\\Models\\Degree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T19:18:25.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PortfolioController.cs",
-              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Controllers\\PortfolioController.cs",
-              "RelativeDocumentMoniker": "Basic\\Controllers\\PortfolioController.cs",
-              "ToolTip": "C:\\Users\\Rohan\\Desktop\\ASP.Net-MVC\\Basic\\Basic\\Controllers\\PortfolioController.cs",
-              "RelativeToolTip": "Basic\\Controllers\\PortfolioController.cs",
-              "ViewState": "AgIAABIAAAAAvXJIrc4EwC4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T18:44:28.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T19:18:25.252Z"
             }
           ]
         }

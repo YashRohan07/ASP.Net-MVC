@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Message
+    </div>
+}
+
+@* uncomment this to show the summary of validation errors *@
+@*@Html.ValidationSummary()*@
+
+<form method="post">
+    <div class="form-group">
+        <input type="text" value="@Model.Name" name="Name" class="form-control" placeholder="Name" />
+        <span class="text-danger">@Html.ValidationMessage("Name")</span><br />
+    </div>
+    <div class="form-group">
+        <input type="text" value="@Model.Id" name="Id" class="form-control" placeholder="Id" />
+        <span class="text-danger">@Html.ValidationMessage("Id")</span><br />
+    </div>
+    <div class="form-group">
+        <input type="date" value="@Model.Dob.ToString("yyyy-MM-dd")" name="Dob" class="form-control" />
+        <span class="text-danger">@Html.ValidationMessage("Dob")</span><br />
+    </div>
+    <div class="form-group">
+        <input type="text" value="@Model.Email" name="Email" class="form-control" placeholder="Email" />
+        <span class="text-danger">@Html.ValidationMessage("Email")</span><br />
+    </div>
+    <input type="submit" value="Create" class="btn btn-success" />
+</form>
+
+<!--
+
+
+These classes and attributes come from Bootstrap:
+
+form-group: Groups the form elements with proper spacing and layout.
+form-control: Styles form input fields to ensure they are full-width and visually consistent.
+placeholder="Name": Displays a placeholder text inside the input field to guide the user.
+btn btn-success: Styles the submit button as a green "success" button, indicating a positive action.
+
+-->
