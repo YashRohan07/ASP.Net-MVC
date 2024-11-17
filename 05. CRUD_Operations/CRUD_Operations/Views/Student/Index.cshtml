@@ -1,0 +1,61 @@
+﻿<!--This view will expect a collection (list) of StudentDB objects to be passed from the controller.-->
+@model IEnumerable<CRUD_Operations.EF.StudentDB>
+
+@{
+    ViewBag.Title = "Student List";
+}
+
+<h2>Student List</h2>
+
+<div class="container">
+    <p>
+        <!--The link will point to the "Create" action of the "Student" controller.-->
+        @Html.ActionLink("Create New Student", "Create", "Student", new { @class = "btn btn-primary" })
+    </p>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- The foreach loop iterates over the Model, which is a collection of StudentDB objects -->
+            @foreach (var student in Model)  
+            {
+                <tr>
+                    <td>@student.ID</td>
+                    <td>@student.Name</td>
+                    <td>@student.Email</td>
+                    <td>@student.Mobile</td>
+                    <td>
+                        <!-- The link will redirect to the "Details" action in the "Student" controller and pass the student's ID as a route parameter. -->
+                        @Html.ActionLink("Details", "Details", new { id = student.ID }, new { @class = "btn btn-info" })
+
+                        <!-- The link will redirect to the "Edit" action in the "Student" controller -->
+                        @Html.ActionLink("Edit", "Edit", new { id = student.ID }, new { @class = "btn btn-warning" })
+
+                        <!-- The link will redirect to the "Delete" action in the "Student" controller. -->
+                        @Html.ActionLink("Delete", "Delete", new { id = student.ID }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+
+                @*
+                    
+                (var student in Model)
+
+                Model: Model is the default object passed from the controller to the view. It contains the collection of student objects that the view will iterate over.
+
+                foreach: Iterates through each item in the Model collection (each StudentDB object).
+
+                var student: Represents the current student object in each iteration. It holds one StudentDB object from the collection at a time.
+
+                *@
+            }
+        </tbody>
+    </table>
+</div>

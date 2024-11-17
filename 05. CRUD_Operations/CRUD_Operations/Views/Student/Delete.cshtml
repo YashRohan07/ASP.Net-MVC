@@ -1,0 +1,38 @@
+﻿@model CRUD_Operations.EF.StudentDB
+
+@{
+    ViewBag.Title = "Delete Student";
+}
+
+<h3>Are you sure you want to delete this student?</h3>
+
+<div class="form-group">
+    <label for="Name">Name</label>
+    <p>@Model.Name</p>
+</div>
+
+<div class="form-group">
+    <label for="Email">Email</label>
+    <p>@Model.Email</p>
+</div>
+
+<div class="form-group">
+    <label for="Mobile">Mobile</label>
+    <p>@Model.Mobile</p>
+</div>
+
+@using (Html.BeginForm("DeleteConfirmed", "Student", FormMethod.Post))
+{
+    <!-- Hidden field for the student's ID -->
+    @Html.Hidden("id", Model.ID)
+    
+    // It sends the id of the student to the DeleteConfirmed action when the form is submitted. 
+    // The Model.ID ensures that the correct student id is sent with the form.
+    
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        @Html.ActionLink("Back to Index", "Index", new { @class = "btn btn-secondary" })
+    </div>
+
+}

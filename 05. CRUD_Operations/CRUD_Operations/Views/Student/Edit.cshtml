@@ -1,0 +1,35 @@
+﻿@model CRUD_Operations.EF.StudentDB
+
+@{
+    ViewBag.Title = "Edit Student";
+}
+
+<h2>Edit Information</h2>
+
+@using (Html.BeginForm("Edit", "Student", FormMethod.Post))
+{
+
+    <div class="form-group">
+        <label for="Name">Name</label>
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="Mobile">Mobile</label>
+        @Html.TextBoxFor(model => model.Mobile, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+    </div>
+
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </div>
+
+}

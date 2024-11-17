@@ -1,0 +1,56 @@
+﻿<!--Specifies that the model passed to the view is of type StudentDB-->
+@model CRUD_Operations.EF.StudentDB
+
+@{
+    ViewBag.Title = "Create Student";
+}
+
+<h2>Add Student</h2>
+
+<!--Will submit to the "Create" action of the "Student" controller, using the POST method-->
+@using (Html.BeginForm("Create", "Student", FormMethod.Post))
+{
+    <!-- Name Field -->
+    <div class="form-group">
+        <label for="Name">Name</label>
+        @Html.TextBoxFor(data => data.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(data => data.Name, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Email Field -->
+    <div class="form-group">
+        <label for="Email">Email</label>
+        @Html.TextBoxFor(data => data.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(data => data.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Mobile Field -->
+    <div class="form-group">
+        <label for="Mobile">Mobile</label>
+        @Html.TextBoxFor(data => data.Mobile, new { @class = "form-control" })
+        @Html.ValidationMessageFor(data => data.Mobile, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Submit Button -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+
+
+    @*
+
+    (data => data.Name)
+    'data' is the student object passed into the method
+    '=>' is the lambda operator, meaning "for this student data, get the 'Name' property"
+     data.Name: Refers to the 'Name' property of the student object (data)
+     This accesses the 'Name' field of the student object being passed in
+    'data => data.Name' is used to retrieve or work with the 'Name' of the student object.
+
+
+     @class= "form-control": This class applies Bootstrap's default styling for form inputs (text boxes, drop-downs, etc.)
+     @class="text-danger": This class is used for styling validation error messages in red to highlight input errors.
+     @class="btn btn-primary": This class is used to style the submit button with Bootstrap's primary button style.
+
+    *@
+
+}

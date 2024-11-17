@@ -1,0 +1,32 @@
+﻿@model CRUD_Operations.EF.StudentDB
+
+@{
+    ViewBag.Title = "Student Details";
+}
+
+<h2>Student Details</h2>
+
+
+<div class="form-group">
+    <label for="Name"> <strong>Name:</strong> </label>
+    <p>@Model.Name</p>
+    @*  
+        @Model is a way to access the data passed from the controller to the view,,
+        Model.Name dynamically displays the student's name in the view, which was passed from the controller 
+    *@
+</div>
+
+<div class="form-group">
+    <label for="Email"> <strong>Email:</strong> </label>
+    <p>@Model.Email</p>
+</div>
+
+<div class="form-group">
+    <label for="Mobile"> <strong>Mobile:</strong> </label>
+    <p>@Model.Mobile</p>
+</div>
+
+
+<p>
+    @Html.ActionLink("Back to List", "Index", "Student", new { @class = "btn btn-primary" })
+</p>
