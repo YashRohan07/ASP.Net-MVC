@@ -1,0 +1,82 @@
+﻿@model IEnumerable<DTO.DTOs.StudentDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student List</h2>
+
+<!-- Search Form -->
+@using (Html.BeginForm("Index", "Student", FormMethod.Get))
+{
+    <div class="form-group">
+        <label for="search">Search by ID or Name:</label>
+        <input type="text" name="search" id="search" value="@Request.QueryString["search"]" class="form-control" />
+
+    <!--
+    Request.QueryString["search"] gets the value of the "search" parameter from the URL.
+    For example, if the URL is ?search=John, it will return "John".
+    -->
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+}
+
+<!-- Scholarship Holder Button -->
+@using (Html.BeginForm("Index", "Student", FormMethod.Get))
+{
+    <button type="submit" name="ScholarshipHolder" value="true" class="btn btn-success">Show Scholarship Holders (CGPA >= 3.75)</button>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cgpa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.D_ID)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cgpa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_ID)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DTOdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CourseDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Credit" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="D_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DepartmentDB" Relationship="Self.FK_CourseDB_DepartmentDB" FromRole="CourseDB" ToRole="DepartmentDB" />
+  </EntityType>
+  <EntityType Name="DepartmentDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CourseDBs" Relationship="Self.FK_CourseDB_DepartmentDB" FromRole="DepartmentDB" ToRole="CourseDB" />
+    <NavigationProperty Name="StudentDBs" Relationship="Self.FK_StudentDB_DepartmentDB" FromRole="DepartmentDB" ToRole="StudentDB" />
+  </EntityType>
+  <EntityType Name="StudentDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cgpa" Type="Decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="D_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DepartmentDB" Relationship="Self.FK_StudentDB_DepartmentDB" FromRole="StudentDB" ToRole="DepartmentDB" />
+  </EntityType>
+  <Association Name="FK_CourseDB_DepartmentDB">
+    <End Role="DepartmentDB" Type="Self.DepartmentDB" Multiplicity="1" />
+    <End Role="CourseDB" Type="Self.CourseDB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentDB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CourseDB">
+        <PropertyRef Name="D_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentDB_DepartmentDB">
+    <End Role="DepartmentDB" Type="Self.DepartmentDB" Multiplicity="1" />
+    <End Role="StudentDB" Type="Self.StudentDB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentDB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentDB">
+        <PropertyRef Name="D_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DTOdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CourseDBs" EntityType="Self.CourseDB" />
+    <EntitySet Name="DepartmentDBs" EntityType="Self.DepartmentDB" />
+    <EntitySet Name="StudentDBs" EntityType="Self.StudentDB" />
+    <AssociationSet Name="FK_CourseDB_DepartmentDB" Association="Self.FK_CourseDB_DepartmentDB">
+      <End Role="DepartmentDB" EntitySet="DepartmentDBs" />
+      <End Role="CourseDB" EntitySet="CourseDBs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentDB_DepartmentDB" Association="Self.FK_StudentDB_DepartmentDB">
+      <End Role="DepartmentDB" EntitySet="DepartmentDBs" />
+      <End Role="StudentDB" EntitySet="StudentDBs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

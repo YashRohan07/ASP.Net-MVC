@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DTOdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CourseDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Credit" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="D_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DepartmentDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Location" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cgpa" Type="decimal" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="D_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CourseDB_DepartmentDB">
+    <End Role="DepartmentDB" Type="Self.DepartmentDB" Multiplicity="1" />
+    <End Role="CourseDB" Type="Self.CourseDB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentDB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CourseDB">
+        <PropertyRef Name="D_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentDB_DepartmentDB">
+    <End Role="DepartmentDB" Type="Self.DepartmentDB" Multiplicity="1" />
+    <End Role="StudentDB" Type="Self.StudentDB" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentDB">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentDB">
+        <PropertyRef Name="D_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DTOdbModelStoreContainer">
+    <EntitySet Name="CourseDB" EntityType="Self.CourseDB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DepartmentDB" EntityType="Self.DepartmentDB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentDB" EntityType="Self.StudentDB" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CourseDB_DepartmentDB" Association="Self.FK_CourseDB_DepartmentDB">
+      <End Role="DepartmentDB" EntitySet="DepartmentDB" />
+      <End Role="CourseDB" EntitySet="CourseDB" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentDB_DepartmentDB" Association="Self.FK_StudentDB_DepartmentDB">
+      <End Role="DepartmentDB" EntitySet="DepartmentDB" />
+      <End Role="StudentDB" EntitySet="StudentDB" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
