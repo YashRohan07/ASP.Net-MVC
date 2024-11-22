@@ -47,11 +47,13 @@
 
 ![Screenshot (228)](https://github.com/user-attachments/assets/24f69732-ecb1-409e-8812-be8ad2315457)
 
-For Updating Any data in the data table
+For Updating or Deleteing Any Coloumn or data in the data table
 
 ![Screenshot (231)](https://github.com/user-attachments/assets/ccbd322c-3379-4422-82f6-93ffb437e160)
 
 ![Screenshot (232)](https://github.com/user-attachments/assets/e8976410-adec-4577-ae86-1a092f5b3725)
+
+After Updating or Deleting any column or data then update it from the Model.edmx
 
 ![Screenshot (233)](https://github.com/user-attachments/assets/7ebaf0e7-0e63-467d-8882-f63c4c55e5df)
 
