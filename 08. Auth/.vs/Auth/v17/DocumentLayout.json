@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\ef\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\ef\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|c:\\users\\rohan\\desktop\\dotnet\\auth\\auth\\views\\user\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\user\\userindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\userindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\auth\\logged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\ef\\model.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\ef\\model.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\ef\\model.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\ef\\model.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\ef\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\ef\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\auth\\ef\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9E951966-D2F0-47BA-AE90-18AFB82B4881}|Auth\\Auth.csproj|solutionrelative:auth\\ef\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\AdminIndex.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\AdminIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T12:53:57.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwEsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T15:05:46.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Auth\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Auth\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADMAAAAA2QsEiogQwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:31:43.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T15:10:56.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T15:10:18.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T15:02:11.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDB.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\UserDB.cs",
+              "RelativeDocumentMoniker": "Auth\\EF\\UserDB.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\UserDB.cs",
+              "RelativeToolTip": "Auth\\EF\\UserDB.cs",
+              "ViewState": "AgIAAAwAAABgZmZmZmYkwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:39:05.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\UserIndex.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\User\\UserIndex.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\User\\UserIndex.cshtml",
+              "RelativeToolTip": "Auth\\Views\\User\\UserIndex.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T12:54:46.671Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Auth\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Auth\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAC8AAAAAm5mZmZklwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:23:31.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Auth\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Auth\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T14:01:39.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Logged.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Auth\\Logged.cs",
+              "RelativeDocumentMoniker": "Auth\\Auth\\Logged.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\Auth\\Logged.cs",
+              "RelativeToolTip": "Auth\\Auth\\Logged.cs",
+              "ViewState": "AgIAAAgAAABgZmZmZmYswBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T13:14:16.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Auth\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Auth\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:35:31.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Auth\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Auth\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:53:29.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Model.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.Context.cs",
+              "RelativeDocumentMoniker": "Auth\\EF\\Model.Context.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.Context.cs",
+              "RelativeToolTip": "Auth\\EF\\Model.Context.cs",
+              "ViewState": "AgIAABEAAAAANTMzM/MuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:35:44.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.cs",
+              "RelativeDocumentMoniker": "Auth\\EF\\Model.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.cs",
+              "RelativeToolTip": "Auth\\EF\\Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:35:39.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Model.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.Context.tt",
+              "RelativeDocumentMoniker": "Auth\\EF\\Model.Context.tt",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.Context.tt",
+              "RelativeToolTip": "Auth\\EF\\Model.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-23T11:52:57.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.edmx",
+              "RelativeDocumentMoniker": "Auth\\EF\\Model.edmx",
+              "ToolTip": "C:\\Users\\Rohan\\Desktop\\Dotnet\\Auth\\Auth\\EF\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "Auth\\EF\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-23T11:38:10.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

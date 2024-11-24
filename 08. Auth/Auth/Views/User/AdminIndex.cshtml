@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Auth.DTO.UserDTO>
+
+@{
+    ViewBag.Title = "User Index";
+}
+
+<h2>Admin Dashboard</h2>
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-success">@TempData["Msg"]</div>
+}
+
+
+@Html.ActionLink("Logout", "Logout", "User", null, new { @class = "btn btn-danger" })
+@*  @Html.ActionLink("Link Text", "Action Name", "Controller Name", RouteValues, HtmlAttributes) *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>UserID</th>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>UserType</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserID</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Address</td>
+                <td>@user.UserType</td>
+                <td>
+                    <a href="@Url.Action("Details", "User", new { id = user.UserID })">Details</a> |
+                    <a href="@Url.Action("Edit", "User", new { id = user.UserID })">Edit</a> |
+                    <a href="@Url.Action("Delete", "User", new { id = user.UserID })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

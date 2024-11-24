@@ -1,0 +1,24 @@
+﻿@model Auth.DTO.UserDTO
+
+@{
+    ViewBag.Title = "User Profile";
+}
+
+<h2>User Profile</h2>
+
+@if (TempData["Msg"] != null)
+{
+    <div class="alert alert-success">@TempData["Msg"]</div>
+}
+
+<div>
+    <strong>UserName:</strong> @Model.UserName <br />
+    <strong>Email:</strong> @Model.Email <br />
+    <strong>Address:</strong> @Model.Address <br />
+    <strong>UserType:</strong> @Model.UserType <br />
+</div>
+
+
+@Html.ActionLink("Logout", "Logout", "User", null, new { @class = "btn btn-danger" })
+
+@*  @Html.ActionLink("Link Text", "Action Name", "Controller Name", RouteValues, HtmlAttributes) *@
