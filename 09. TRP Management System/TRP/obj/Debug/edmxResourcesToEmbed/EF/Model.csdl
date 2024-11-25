@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRPdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="dbChannel">
+    <Key>
+      <PropertyRef Name="ChannelId" />
+    </Key>
+    <Property Name="ChannelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ChannelName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EstablishedYear" Type="Int32" Nullable="false" />
+    <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="dbPrograms" Relationship="Self.FK_dbProgram_dbChannel" FromRole="dbChannel" ToRole="dbProgram" />
+  </EntityType>
+  <EntityType Name="dbProgram">
+    <Key>
+      <PropertyRef Name="ProgramId" />
+    </Key>
+    <Property Name="ProgramId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProgramName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TRPScore" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="ChannelId" Type="Int32" Nullable="false" />
+    <Property Name="AirTime" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="dbChannel" Relationship="Self.FK_dbProgram_dbChannel" FromRole="dbProgram" ToRole="dbChannel" />
+  </EntityType>
+  <Association Name="FK_dbProgram_dbChannel">
+    <End Role="dbChannel" Type="Self.dbChannel" Multiplicity="1" />
+    <End Role="dbProgram" Type="Self.dbProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dbChannel">
+        <PropertyRef Name="ChannelId" />
+      </Principal>
+      <Dependent Role="dbProgram">
+        <PropertyRef Name="ChannelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TRPdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dbChannels" EntityType="Self.dbChannel" />
+    <EntitySet Name="dbPrograms" EntityType="Self.dbProgram" />
+    <AssociationSet Name="FK_dbProgram_dbChannel" Association="Self.FK_dbProgram_dbChannel">
+      <End Role="dbChannel" EntitySet="dbChannels" />
+      <End Role="dbProgram" EntitySet="dbPrograms" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

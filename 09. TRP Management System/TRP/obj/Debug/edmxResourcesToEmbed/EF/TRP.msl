@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MIDDEMOModelStoreContainer" CdmEntityContainer="MIDDEMOEntities">
+    <EntitySetMapping Name="C_Table">
+      <EntityTypeMapping TypeName="MIDDEMOModel.C_Table">
+        <MappingFragment StoreEntitySet="C_Table">
+          <ScalarProperty Name="C_ID" ColumnName="C_ID" />
+          <ScalarProperty Name="C_Name" ColumnName="C_Name" />
+          <ScalarProperty Name="E_Year" ColumnName="E_Year" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_Table">
+      <EntityTypeMapping TypeName="MIDDEMOModel.P_Table">
+        <MappingFragment StoreEntitySet="P_Table">
+          <ScalarProperty Name="P_ID" ColumnName="P_ID" />
+          <ScalarProperty Name="P_Name" ColumnName="P_Name" />
+          <ScalarProperty Name="TRPScore" ColumnName="TRPScore" />
+          <ScalarProperty Name="C_ID" ColumnName="C_ID" />
+          <ScalarProperty Name="AirTime" ColumnName="AirTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,81 @@
+﻿@model IEnumerable<TRP.DTOs.ChannelDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Index</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("Index", "Channel", FormMethod.Get))
+{
+    <!-- Search Form -->
+    <div class="form-group">
+        <label for="search">Search Channel by Id or Name:</label>
+        <input type="text" name="search" id="search" value="@Request.QueryString["search"]" class="form-control" />
+
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+}
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.C_ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.C_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.E_Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.C_ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.C_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.E_Year)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { C_ID = item.C_ID }) |
+                    @Html.ActionLink("Details", "Details", new { C_ID = item.C_ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { C_ID = item.C_ID })
+                </td>
+                </td>
+            </tr>
+        }
+
+    </table>

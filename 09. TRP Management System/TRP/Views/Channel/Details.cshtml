@@ -1,0 +1,50 @@
+﻿@model TRP.DTOs.ChannelDTO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.C_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.C_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.C_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.C_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.E_Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.E_Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

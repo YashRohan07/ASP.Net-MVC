@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRPdbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="dbChannel">
+    <Key>
+      <PropertyRef Name="ChannelId" />
+    </Key>
+    <Property Name="ChannelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ChannelName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EstablishedYear" Type="int" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="dbProgram">
+    <Key>
+      <PropertyRef Name="ProgramId" />
+    </Key>
+    <Property Name="ProgramId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProgramName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="TRPScore" Type="decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="ChannelId" Type="int" Nullable="false" />
+    <Property Name="AirTime" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbProgram_dbChannel">
+    <End Role="dbChannel" Type="Self.dbChannel" Multiplicity="1" />
+    <End Role="dbProgram" Type="Self.dbProgram" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dbChannel">
+        <PropertyRef Name="ChannelId" />
+      </Principal>
+      <Dependent Role="dbProgram">
+        <PropertyRef Name="ChannelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TRPdbModelStoreContainer">
+    <EntitySet Name="dbChannel" EntityType="Self.dbChannel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dbProgram" EntityType="Self.dbProgram" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbProgram_dbChannel" Association="Self.FK_dbProgram_dbChannel">
+      <End Role="dbChannel" EntitySet="dbChannel" />
+      <End Role="dbProgram" EntitySet="dbProgram" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

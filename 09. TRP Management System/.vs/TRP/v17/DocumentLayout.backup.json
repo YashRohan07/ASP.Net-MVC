@@ -1,0 +1,316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rohan\\Downloads\\TRP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\program\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\program\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\channel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\channel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\program\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\channel\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|C:\\Users\\Rohan\\Downloads\\TRP\\trp\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|C:\\Users\\Rohan\\Downloads\\TRP\\trp\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\dtos\\channeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|C:\\Users\\Rohan\\Downloads\\TRP\\trp\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\channel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\ef\\dbchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\ef\\dbchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\ef\\dbprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\ef\\dbprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\program\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\ef\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\ef\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\program\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\program\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\program\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\channel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\channel\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|c:\\users\\rohan\\downloads\\trp\\trp\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\views\\channel\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|C:\\Users\\Rohan\\Downloads\\TRP\\trp\\dtos\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FFC5D-1B59-41D1-A67D-D21EA143F637}|TRP\\TRP.csproj|solutionrelative:trp\\dtos\\programdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Details.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Program\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Details.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Program\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:56:26.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Details.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Channel\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Details.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Channel\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T17:43:55.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "TRP\\Controllers\\ProgramController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "TRP\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAAJUAAABQn6gdlKEwwLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:17:42.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Index.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Program\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Index.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Program\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAANDMzMzMbwFEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:35:03.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "TRP\\Controllers\\ChannelController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "TRP\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAACQAAAAA/P//////vysAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:17:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Index.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Channel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Index.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Channel\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:33:50.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChannelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\DTOs\\ChannelDTO.cs",
+              "RelativeDocumentMoniker": "TRP\\DTOs\\ChannelDTO.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\DTOs\\ChannelDTO.cs",
+              "RelativeToolTip": "TRP\\DTOs\\ChannelDTO.cs",
+              "ViewState": "AgIAABcAAADAzMzMzMwwwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:17:42.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbChannel.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\dbChannel.cs",
+              "RelativeDocumentMoniker": "TRP\\EF\\dbChannel.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\dbChannel.cs",
+              "RelativeToolTip": "TRP\\EF\\dbChannel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:44:32.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Create.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Channel\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Create.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Channel\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:31:26.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\dbProgram.cs",
+              "RelativeDocumentMoniker": "TRP\\EF\\dbProgram.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\dbProgram.cs",
+              "RelativeToolTip": "TRP\\EF\\dbProgram.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:58:58.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Create.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Program\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Create.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Program\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAANDMzMzMLwA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:36:55.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\Model.edmx",
+              "RelativeDocumentMoniker": "TRP\\EF\\Model.edmx",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\EF\\Model.edmx [Diagram1]",
+              "RelativeToolTip": "TRP\\EF\\Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-25T14:36:20.923Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Program\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Edit.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Program\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:36:01.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Program\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Program\\Delete.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Program\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:35:33.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Channel\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Delete.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Channel\\Delete.cshtml",
+              "ViewState": "AgIAAAEAAABgNDMzMzMLwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:33:19.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TRP\\Views\\Channel\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\Views\\Channel\\Edit.cshtml",
+              "RelativeToolTip": "TRP\\Views\\Channel\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:32:18.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProgramDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\DTOs\\ProgramDTO.cs",
+              "RelativeDocumentMoniker": "TRP\\DTOs\\ProgramDTO.cs",
+              "ToolTip": "C:\\Users\\Rohan\\Downloads\\TRP\\TRP\\DTOs\\ProgramDTO.cs",
+              "RelativeToolTip": "TRP\\DTOs\\ProgramDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:17:42.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

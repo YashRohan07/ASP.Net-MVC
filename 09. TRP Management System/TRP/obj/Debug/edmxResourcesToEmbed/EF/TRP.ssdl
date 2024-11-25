@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MIDDEMOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="C_Table">
+    <Key>
+      <PropertyRef Name="C_ID" />
+    </Key>
+    <Property Name="C_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="E_Year" Type="int" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="P_Table">
+    <Key>
+      <PropertyRef Name="P_ID" />
+    </Key>
+    <Property Name="P_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TRPScore" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="C_ID" Type="int" Nullable="false" />
+    <Property Name="AirTime" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_P_Table_C_Table">
+    <End Role="C_Table" Type="Self.C_Table" Multiplicity="1" />
+    <End Role="P_Table" Type="Self.P_Table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="C_Table">
+        <PropertyRef Name="C_ID" />
+      </Principal>
+      <Dependent Role="P_Table">
+        <PropertyRef Name="C_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MIDDEMOModelStoreContainer">
+    <EntitySet Name="C_Table" EntityType="Self.C_Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="P_Table" EntityType="Self.P_Table" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_P_Table_C_Table" Association="Self.FK_P_Table_C_Table">
+      <End Role="C_Table" EntitySet="C_Table" />
+      <End Role="P_Table" EntitySet="P_Table" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

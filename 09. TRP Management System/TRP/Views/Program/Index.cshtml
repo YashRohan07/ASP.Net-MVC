@@ -1,0 +1,100 @@
+﻿@model IEnumerable<TRP.DTOs.ProgramDTO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Program Dashboard</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@using TRP.EF
+
+@using (Html.BeginForm("Index", "Program", FormMethod.Get))
+{
+    <!-- Search Form -->
+    <div class="form-group">
+        <label for="search">Search programs by Id or Name:</label>
+        <input type="text" name="search" id="search" value="@Request.QueryString["search"]" class="form-control" />
+
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+
+    <br />
+
+    <!-- Channel Filter -->
+    <label for="Channel">Filter programs by channel:</label>
+    <select name="selectedChannelId">
+        <option value="">All Channels</option>
+        @if (ViewBag.Channels != null)
+        {
+            foreach (var channel in ViewBag.Channels as List<TRP.EF.dbChannel>)
+            {
+                <option value="@channel.ChannelId">@channel.ChannelName</option>
+            }
+        }
+        else
+        {
+            <option value="">No Channels Available</option>
+        }
+    </select>
+
+    <input type="submit" value="Filter" />
+}
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.P_ID)</th>
+        <th>@Html.DisplayNameFor(model => model.P_Name)</th>
+        <th>@Html.DisplayNameFor(model => model.TRPScore)</th>
+        <th>@Html.DisplayNameFor(model => model.C_ID)</th>
+        <th>@Html.DisplayNameFor(model => model.AirTime)</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.P_ID)</td>
+            <td>@Html.DisplayFor(modelItem => item.P_Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.TRPScore)</td>
+            <td>@Html.DisplayFor(modelItem => item.C_ID)</td>
+            <td>@Html.DisplayFor(modelItem => item.AirTime)</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { P_Id = item.P_ID }) |
+                @Html.ActionLink("Details", "Details", new { P_Id = item.P_ID }) |
+                @Html.ActionLink("Delete", "Delete", new { P_Id = item.P_ID })
+            </td>
+        </tr>
+    }
+</table>
+
+@*
+    @if (ViewBag.Channels != null): Checks if the list of channels (ViewBag.Channels) is available.
+
+    foreach (var channel in ViewBag.Channels as List<TRP.EF.dbChannel>):
+    iterates through each channel in the ViewBag.Channels collection, which is expected to be a list of dbChannel objects.
+    It safely tries to treat `ViewBag.Channels` as a list of `dbChannel` objects, ensuring it only proceeds if the cast is successful.
+
+    <option value="@channel.ChannelId">@channel.ChannelName</option>: For each channel, creates an option in the dropdown with:
+
+        value="@channel.ChannelId": The channel's ID to be sent to the server.
+        @channel.ChannelName: The channel's name shown to the user.
+*@
