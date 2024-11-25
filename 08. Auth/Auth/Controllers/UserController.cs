@@ -59,7 +59,7 @@ namespace Auth.Controllers
             {
                 var allUsers = db.UserDBs.ToList(); // Retrieve all users from the database
                 var allUserDTOs = allUsers.Select(ConvertToDTO).ToList(); // Convert each user to DTO
-                return View("AdminIndex", allUserDTOs); // Return the Admin Index view with the list of users
+                return View(allUserDTOs); // Return the Admin Index view with the list of users
             }
             else 
             {
