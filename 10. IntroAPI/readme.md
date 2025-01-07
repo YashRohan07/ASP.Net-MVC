@@ -15,9 +15,12 @@
 ![Screenshot (321)](https://github.com/user-attachments/assets/8d8b8398-ebd5-4105-8028-ca606d250e45)
 
 In the Console, Write:
-Enable Migrations: Run Enable-Migrations .
-Add Migrations: Run Add-Migration <MigrationName> .
-Update Database: Run Update-Database.
+
+Enable Migrations: Run Enable-Migrations
+
+Add Migrations: Run Add-Migration <MigrationName>
+
+Update Database: Run Update-Database
 
 ![Screenshot (323)](https://github.com/user-attachments/assets/ce3d102e-93f0-4a9e-8451-7fe8b874eaf2)
 
