@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77FCB448-4F23-4A83-8B5F-1EE591060FC6}|3TierArchitecture\\3TierArchitecture.csproj|c:\\users\\rohan\\source\\repos\\3tierarchitecture\\3tierarchitecture\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FCB448-4F23-4A83-8B5F-1EE591060FC6}|3TierArchitecture\\3TierArchitecture.csproj|solutionrelative:3tierarchitecture\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\businesslogiclayer\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\repos\\emprepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\emprepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\businesslogiclayer\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\migrations\\202501201027461_employeedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202501201027461_employeedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FCB448-4F23-4A83-8B5F-1EE591060FC6}|3TierArchitecture\\3TierArchitecture.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\3tierarchitecture\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{77FCB448-4F23-4A83-8B5F-1EE591060FC6}|3TierArchitecture\\3TierArchitecture.csproj|solutionrelative:3tierarchitecture\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E00B4D-0504-4853-905C-D6E233E3ADAD}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\businesslogiclayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017E746B-42AF-4BE6-B5E3-8D3EE57A7B07}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\3TierArchitecture\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "3TierArchitecture\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\3TierArchitecture\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "3TierArchitecture\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAsAAACAZmZmZmYswA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:31:04.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202501201027461_EmployeeDB.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Migrations\\202501201027461_EmployeeDB.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202501201027461_EmployeeDB.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Migrations\\202501201027461_EmployeeDB.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202501201027461_EmployeeDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:28:04.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:22:48.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:22:29.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpRepos.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Repos\\EmpRepos.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\EmpRepos.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Repos\\EmpRepos.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repos\\EmpRepos.cs",
+              "ViewState": "AgIAAFoAAACAZmZmZmYgwF8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:22:11.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Models\\Context.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Context.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Models\\Context.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:21:44.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:27:03.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\3TierArchitecture\\Web.config",
+              "RelativeDocumentMoniker": "3TierArchitecture\\Web.config",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\3TierArchitecture\\Web.config",
+              "RelativeToolTip": "3TierArchitecture\\Web.config",
+              "ViewState": "AgIAACsAAACAMzMzMzMrwDwAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-20T10:25:24.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Models\\Employee.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:21:31.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\DataAccessLayer\\Class1.cs",
+              "RelativeToolTip": "DataAccessLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:16:48.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Class1.cs",
+              "ToolTip": "C:\\Users\\Rohan\\source\\repos\\3TierArchitecture\\BusinessLogicLayer\\Class1.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:16:27.588Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\obj\Debug\Business.450209FB.Up2Date
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\AutoMapper.dll
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\AutoMapper.xml
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\Rohan\source\repos\3TierArchitecture\BusinessLogicLayer\bin\Debug\EntityFramework.xml
